@@ -1,3 +1,19 @@
-body{
+/* body{
   background-image: url(../Img/hotel\ image\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.myImg div img{
+  width: 80%;
+  border-radius: 10px;
+}
+.myImg div{
+  display: inline-flex;
+  margin-top: 30%;
+}
+.myImg div a img:hover{
+  width: 95%;
+}
+body{
+  background-color: deeppink;
 }
